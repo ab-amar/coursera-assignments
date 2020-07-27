@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color:; 
+	font-family:"Times New Roman",Times,serif;
+	margin: 1%;
+}
+h1{
+	text-align: center;
+	color: #191970;
+	font-size: 40px;
+}
+.details{
+	font-size: 20px;
+	padding: 12px;
+	margin: 0;
+	clear: right; 
+}
+.foodname{
+	color: black;
+	border: 1px solid black;
+	font-size: 25px;
+	border-top: 0;
+	border-right: 0;
+	width: 200px;
+	float: right;
+	margin: 0;
+	text-align: center;
+}
+.box{
+	background-color: lavender;
+	float: left;
+	margin: 1%;
+	width: 31.3333%;
+	border: 1px solid black;
+}
+#chicken > h2{
+	background-color: lemonchiffon;
+}
+#pizza > h2{
+	background-color: palegreen;
+}
+#sandwich > h2{
+	background-color: orange;
+}
+
+@media screen and (max-width:767px ) {
+
+	.box{
+		width: 98%;
+		margin-bottom: 2%;
+	}
+}
+@media  screen and (max-width: 991px) and (min-width:768px)  {
+	#chicken{
+		width: 48%;
+	}
+	#pizza{
+		width: 48%;
+	}
+	#sandwich{
+		width: 98%;
+		margin-top: 1%;
+	}
+}
